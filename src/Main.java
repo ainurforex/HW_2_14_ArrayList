@@ -5,7 +5,7 @@ public class Main {
         StringList stringList = new StringList();
         System.out.println(stringList.isEmpty());
 
-        System.out.println(" ");
+        System.out.println("  ");
         System.out.println("add 0-5");
         System.out.println(stringList.add("a0"));
         System.out.println(stringList.add("b1"));
@@ -106,7 +106,7 @@ public class Main {
 
         System.out.println(" ");
         System.out.println("NewString[]");
-        String[]newArrayList=stringList.toArray();
+        String[] newArrayList = stringList.toArray();
         for (int i = 0; i < newArrayList.length; i++) {
             System.out.print(newArrayList[i] + " ");
         }
